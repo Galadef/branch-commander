@@ -1,0 +1,23 @@
+{
+  "name": "ramas",
+  "version": "1.0.0",
+  "description": "Prueba",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Galadef/ramas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Galadef/ramas/issues"
+  },
+  "homepage": "https://github.com/Galadef/ramas#readme",
+  "dependencies": {
+    "inquirer": "^8.2.5"
+  }
+}
