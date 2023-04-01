@@ -1,14 +1,15 @@
+#! /usr/bin/env node
 
 const inquirer = require('inquirer');
 const { exec } = require('child_process');
-
+const chalk = require('chalk');
 console.clear();
-console.log('------------');
-console.log('---BRANCH---');
-console.log('--COMANDER--');
-console.log('------------');
-
-
+console.log(chalk.red(`
+*************************
+         BRANCH
+        COMMANDER
+*************************
+`))
 function getBranches() {
     return new Promise((resolve, reject) => {
         try {
